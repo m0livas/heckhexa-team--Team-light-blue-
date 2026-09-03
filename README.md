@@ -1,3 +1,3 @@
 # heckhexa-team--Team-light-blue-
 
-mejor equipo del mundo
+resolución de heckhexa, para entender git y los funcionamientos que existen
