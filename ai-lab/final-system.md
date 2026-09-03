@@ -1,0 +1,1 @@
+Se implementaron sensores y sistemas de escaneo capaces de detectar las emociones de las personas, en areas de alto trafico humano.
