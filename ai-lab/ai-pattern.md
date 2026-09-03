@@ -1,4 +1,4 @@
-Si emocion positivo[
+emocion positivo[
   {
     "emoji": "🙂",
     "sentiment": "positivo"
@@ -12,7 +12,12 @@ Si emocion positivo[
     "sentiment": "positivo"
   }
 ]
-si emoicion negativo[
+emoicion neutral[
+  {
+    "emoji": "😐",
+    "sentiment": "neutral"
+  }
+emoicion negativo[
   {
     "emoji": "😭",
     "sentiment": "negativo"
@@ -22,7 +27,7 @@ si emoicion negativo[
     "sentiment": "negativo"
   },
   {
-    "emoji": "😢",
+    "emoji": "😤",
     "sentiment": "negativo"
   }
 ]
