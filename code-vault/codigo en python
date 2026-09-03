@@ -1,0 +1,39 @@
+def descifrar_mensaje(mensaje_cifrado, desplazamiento=1):
+    alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    resultado = ""
+
+    for caracter in mensaje_cifrado.upper():
+        if caracter not in alfabeto:
+            # espacios u otros símbolos se dejan igual
+            resultado += caracter
+            continue
+
+        posicion = alfabeto.index(caracter)
+        nueva_posicion = (posicion - desplazamiento) % 26
+        resultado += alfabeto[nueva_posicion]
+
+    return resultado
+
+
+def cifrar_mensaje(mensaje_original, desplazamiento=1):
+    alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    resultado = ""
+
+    for caracter in mensaje_original.upper():
+        if caracter not in alfabeto:
+            resultado += caracter
+            continue
+
+        posicion = alfabeto.index(caracter)
+        nueva_posicion = (posicion + desplazamiento) % 26
+        resultado += alfabeto[nueva_posicion]
+
+    return resultado
+
+
+# Ejemplo de uso
+if __name__ == "__main__":
+    print(descifrar_mensaje("IPMB"))     # HOLA
+    print(descifrar_mensaje("QFSSP"))    # PERRO
+    print(cifrar_mensaje("HOLA"))        # IPMB
+    
