@@ -1,0 +1,3 @@
+Cada letra del mensaje original fue desplazada una posición a la derecha dentro de su misma fila del teclado para producir la letra cifrada (y cuando la letra estaba al final de la fila, "da la vuelta" al principio). Para descifrar, se hace lo contrario: desplazar una posición hacia la izquierda dentro de la misma fila, dando la vuelta al final si la letra es la primera de su fila. Los espacios se dejan igual.
+
+la resupesta es HOLA MUNDO
